@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class= "container">
+  <header class= "header">
+    <h1 id= "title" class= "text-center"> Valorant Survey Form
+      </h1>
+    
+    <p id= "description" class= "text-center"> Thank you for taking the time to help us improve the Game. 
+    </p>
+    
+    </header>
+
+   <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="IGN-label" for="IGN">IGN</label>
+      <input
+        type="IGN"
+        name="IGN"
+        id="IGN"
+        class="form-control"
+        placeholder="Enter your IGN"
+        required
+      />
+    </div>
+    
+    <div class= "form-group">
+      <label id= "number-label" for= "number-lable"> Age <span calss= "clue"> (Optional) 
+        </span></label>
+      <input
+             type= "number"
+             name= "age"
+             id= "number"
+             min= "10"
+             max= "90"
+             class= "form-control"
+             placeholder= "Age"
+             />
+      </div>
+    
+    <div class= "form-group">
+      <p> Which option best describes your current role? </p>
+      <select id= "dropdown" name= "role" class= "form-control" required>
+        <option disabled selected value>Select current role </option>
+        <option value= "Sentinel">Sentinel</option>
+         <option value= "Controller">Controller</option>
+         <option value= "Duelist">Duelist</option>
+         <option value= "Initiator">Initiator</option>
+         <option value= "Preffer not to say">Preffer not to say</option>
+         <option value= "Other">Other</Other>
+      </select>
+    </div>
+  
+  <div class= "form-group">
+    <p> Would you recommend Valorant to a friend?</p>
+    <label>
+      <input
+             name= "user-recommend"
+             value= "Definitely"
+             type= "radio"
+             class= "input-radio"
+             checked
+             />Definitely</label>
+    
+    <label>
+      <input
+             name= "user-recommend"
+             value= "May-be"
+             type= "radio"
+             class= "input-radio"
+             checked
+             />Maybe</label>
+    
+    <label>
+      <input
+             name="user-recommend"
+             value= "Not-sure"
+             type= "radio"
+             class= "input-radio"
+             checked
+             />Not sure</label>
+        </div>
+        
+    <div class= "form-group">
+      <p> What is your favorite feature of Valorant? </p>
+      <select id= "most-liked" name= "mostlike" class= "form-control" required>
+        <option disabled selected value> Select an option </option>
+        <option value= "Run and Gun">Run and Gun</option>
+        <option value= "Spamming"> Spamming</option>
+        <option value= "Boom-Bot"> Boom-Bot
+          </option>
+        </select>
+      </div>
+  
+  <div class= "form-group">
+    <p> What would you like to see improved? 
+      <span class= "clue"> (check all that apply) </span>
+      </p>
+    
+    <label>
+    <input
+           name= "prefer"
+           value= "The UI"
+           type= "checkbox"
+           class= "input-checkbox"
+           /> The UI </label>
+           
+    <label>
+      <input
+             name= "prefer"
+             value= "The new Butterfly knife"
+             type= "checkbox"
+             class= "input-checkbox"
+             /> The new Butterfly knife </label>
+    
+    <label>
+      <input
+             name= "prefer"
+             value= "Battle-Pass skins"
+             type= "checkbox"
+             class= "input-checkbox"
+             /> Battle-Pass skins </label>
+    
+    <div class= "form-group">
+      <p> Any comments or suggestions? </p>
+      <textarea
+                id= "comments"
+                class= "input-textarea"
+                name= "comment"
+                placeholder="Enter your comment here..."
+                ></textarea>
+      </div>
+    
+    <div class= "form-group">
+      <button type= "submit" id= "submit" class= "submit-button"> Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</body>
+                
+    
+    
+    
+  
+    
+    
+        
+    
+    
+      
+             
+      
+    
